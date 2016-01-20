@@ -95,3 +95,76 @@
 	}
 
 }
+/*set width of entire grid*/
+.grid-container {
+    width : 100%;
+    max-width : 1200px;
+}
+
+/*set width and height properties (and min/max properties) to include content, padding and border*/
+.grid-container *{
+       box-sizing: border-box;
+   }
+
+/*ensure columns in one row do not overflow into the next*/
+.row:before,
+   .row:after {
+       content:"";
+       display: table;
+       clear:both;
+   }
+
+
+   /* For mobile phones: */
+   [class*="col-"] {
+       width: 100%;
+       float: left;
+       min-height: 1px;
+       padding: 12px;
+   }
+   @media only screen and (min-width: 600px) {
+       /* For tablets: */
+       /*column widths*/
+       .col-m-1 {width: 8.33%;}
+       .col-m-2 {width: 16.66%;}
+       .col-m-3 {width: 25%;}
+       .col-m-4 {width: 33.33%;}
+       .col-m-5 {width: 41.66%;}
+       .col-m-6 {width: 50%;}
+       .col-m-7 {width: 58.33%;}
+       .col-m-8 {width: 66.66%;}
+       .col-m-9 {width: 75%;}
+       .col-m-10 {width: 83.33%;}
+       .col-m-11 {width: 91.66%;}
+       .col-m-12 {width: 100%;}
+
+       /*offset*/
+       .offset-1 {margin-left: 8.33%;}
+       .offset-2 {margin-left: 16.66%;}
+       .offset-3 {margin-left: 25%;}
+       .offset-4 {margin-left: 33.33%;}
+       .offset-5 {margin-left: 41.66%;}
+       .offset-6 {margin-left: 50%;}
+       .offset-7 {margin-left: 58.33%;}
+       .offset-8 {margin-left: 66.66%;}
+       .offset-9 {margin-left: 75%;}
+       .offset-10 {margin-left: 83.33%;}
+       .offset-11 {margin-left: 91.66%;}
+
+
+   }
+   @media only screen and (min-width: 768px) {
+       /* For desktop: */
+       .col-1 {width: 8.33%;}
+       .col-2 {width: 16.66%;}
+       .col-3 {width: 25%;}
+       .col-4 {width: 33.33%;}
+       .col-5 {width: 41.66%;}
+       .col-6 {width: 50%;}
+       .col-7 {width: 58.33%;}
+       .col-8 {width: 66.66%;}
+       .col-9 {width: 75%;}
+       .col-10 {width: 83.33%;}
+       .col-11 {width: 91.66%;}
+       .col-12 {width: 100%;}
+   }
