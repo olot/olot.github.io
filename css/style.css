@@ -5,7 +5,7 @@ body {
 
 /*Homepage*/
 .row#main_img{
-  height: 350px;
+  height: 50vh;
   position: relative;
   left: -5px;
 }
@@ -32,6 +32,8 @@ body {
 
 * {
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  color: #b8d676;
 }
 
 body  {
@@ -54,6 +56,7 @@ body  {
 .nav {
   position: relative;
   margin: 20px 0;
+  z-index: 1;
 }
 .nav ul {
   margin: 0;
@@ -66,12 +69,10 @@ body  {
   display: inline-block;
 }
 .nav a {
-
 	padding: 3px 12px;
 	text-decoration: none;
 	color: #b8d676;
 	line-height: 100%;
-
 }
 
 .nav a:hover {
@@ -209,6 +210,7 @@ body  {
 .grid-container {
 
   width: 100%;
+  text-align: center;
 }
 
 /*set width and height properties (and min/max properties) to include content, padding and border*/
@@ -233,6 +235,8 @@ body  {
   min-height: 1px;
   padding: 12px;
 }
+
+
 @media only screen and (max-width: 600px) {
   /* For tablets: */
   /*column widths*/
@@ -272,11 +276,13 @@ body  {
   .col-m-12 {
     width: 100%;
   }
-
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-
+  .row {
+    margin: auto;
+    text-align: center;
+  }
   .col-1 {
     width: 8.33%;
   }
@@ -378,22 +384,11 @@ body  {
   width: 200%;
   height: 200%;
   background: inherit;
-  background-attachment: fixed;
   background-position: 0 50vh;
   -webkit-filter: blur(4px);
   filter: blur(4px);
 }
 .background-image > header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5)
-}
-
-.module > header::after {
   content: "";
   position: absolute;
   top: 0;
@@ -412,12 +407,12 @@ body  {
 
 .dropdown {
   position: relative;
-  top: 498px;
+  top: 50px;
 }
 
 .overscroll{
   height:120px;
-  width:1300px;
+  width:100%;
   border:0px solid #ccc;
   font:16px/26px Georgia, Garamond, Serif;
   overflow:scroll;
