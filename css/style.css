@@ -1,5 +1,8 @@
 * {
   font-family: 'Lato', sans-serif;
+}
+
+body  {
   background-color: #f3f3eb;
 }
 
@@ -31,31 +34,20 @@
   display: inline-block;
 }
 .nav a {
-<<<<<<< HEAD
-  padding: 3px 12px;
-  text-decoration: none;
-  color: #999;
-  line-height: 100%;
-=======
 	padding: 3px 12px;
 	text-decoration: none;
 	color: #b8d676;
 	line-height: 100%;
->>>>>>> master
 }
+
 .nav a:hover {
   color: #000;
 }
+
 .nav .current a {
-<<<<<<< HEAD
-  background: #999;
-  color: #fff;
-  border-radius: 5px;
-=======
 	background: #b8d676;
 	color: #fff;
 	border-radius: 5px;
->>>>>>> master
 }
 
 /* right nav */
