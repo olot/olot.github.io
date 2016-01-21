@@ -195,7 +195,6 @@ body  {
 .grid-container {
 
   width: 100%;
-  max-width: 100%;
 }
 
 /*set width and height properties (and min/max properties) to include content, padding and border*/
@@ -264,10 +263,7 @@ body  {
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .grid-container {
-    width: 100%;
-    max-width: 900px;
-  }
+
   .col-1 {
     width: 8.33%;
   }
@@ -403,4 +399,12 @@ body  {
 .dropdown {
   position: relative;
   top: 498px;
+}
+
+.overscroll{
+  height:120px;
+  width:1300px;
+  border:0px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:scroll;
 }
