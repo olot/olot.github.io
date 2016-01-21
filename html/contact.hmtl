@@ -33,13 +33,9 @@
 
 
     <!--Testing grid system!-->
-      <div class="grid-container">
-
-
-
-        <div class="row">
-
-          <div class="col-10 offset-1">
+<div class="grid-container">
+  <div class="row">
+    <div class="col-10 offset-1">
       <h1>Contact Page</h1>
       <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     	     <div class="row">
@@ -56,10 +52,9 @@
     	     </div>
     	<input id="submit_button" type="submit" value="Send email" />
     </form>
-        </div>
-      </div>
-
   </div>
+ </div>
+</div>
 
 
 
