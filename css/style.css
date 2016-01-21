@@ -67,8 +67,6 @@ body  {
 }
 
 .nav .current a {
-
-
 	background: #b8d676;
 	color: #fff;
 	border-radius: 5px;
@@ -404,5 +402,5 @@ body  {
 }
 .dropdown {
   position: relative;
-  top: 498px; 
+  top: 498px;
 }
