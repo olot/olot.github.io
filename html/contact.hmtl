@@ -35,6 +35,7 @@
     <!--Testing grid system!-->
       <div class="grid-container">
 
+
       <h1>Contact Page</h1>
       <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
     	<div class="row">
@@ -51,6 +52,28 @@
     	</div>
     	<input id="submit_button" type="submit" value="Send email" />
     </form>
+
+
+        <div class="rowform">
+          <div class="col-10 offset-1">
+      <h1>Contact Page</h1>
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    	     <div class="rowform">
+    		<label for="name">Your name:</label><br />
+    		<input id="name" class="input" name="name" type="text" value="" size="45" /><br />
+    	       </div>
+    	         <div class="rowform">
+    		<label for="email">Your email:</label><br />
+    		<input id="email" class="input" name="email" type="text" value="" size="45" /><br />
+    	         </div>
+    	      <div class="rowform">
+    		<label for="message">Your message:</label><br />
+    		<textarea id="message" class="input" name="message" rows="11" cols="70"></textarea><br />
+    	     </div>
+    	<input id="submit_button" type="submit" value="Send email" />
+    </form>
+        </div>
+      </div>
 
   </div>
 
