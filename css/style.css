@@ -1,6 +1,5 @@
 * {
   font-family: 'Lato', sans-serif;
-  background-color: #f3f3eb;
 }
 
 .profile-img {
@@ -31,31 +30,18 @@
   display: inline-block;
 }
 .nav a {
-<<<<<<< HEAD
   padding: 3px 12px;
-  text-decoration: none;
-  color: #999;
-  line-height: 100%;
-=======
-	padding: 3px 12px;
 	text-decoration: none;
 	color: #b8d676;
 	line-height: 100%;
->>>>>>> master
 }
 .nav a:hover {
   color: #000;
 }
 .nav .current a {
-<<<<<<< HEAD
-  background: #999;
-  color: #fff;
-  border-radius: 5px;
-=======
 	background: #b8d676;
 	color: #fff;
 	border-radius: 5px;
->>>>>>> master
 }
 
 /* right nav */
@@ -207,6 +193,8 @@
   min-height: 1px;
   padding: 12px;
 }
+
+
 @media only screen and (max-width: 600px) {
   /* For tablets: */
   /*column widths*/
@@ -246,46 +234,12 @@
   .col-m-12 {
     width: 100%;
   }
-  /*offset*/
-  .offset-1 {
-    margin-left: 8.33%;
-  }
-  .offset-2 {
-    margin-left: 16.66%;
-  }
-  .offset-3 {
-    margin-left: 25%;
-  }
-  .offset-4 {
-    margin-left: 33.33%;
-  }
-  .offset-5 {
-    margin-left: 41.66%;
-  }
-  .offset-6 {
-    margin-left: 50%;
-  }
-  .offset-7 {
-    margin-left: 58.33%;
-  }
-  .offset-8 {
-    margin-left: 66.66%;
-  }
-  .offset-9 {
-    margin-left: 75%;
-  }
-  .offset-10 {
-    margin-left: 83.33%;
-  }
-  .offset-11 {
-    margin-left: 91.66%;
-  }
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .grid-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
   }
   .col-1 {
     width: 8.33%;
@@ -322,6 +276,40 @@
   }
   .col-12 {
     width: 100%;
+  }
+  /*offset*/
+  .offset-1 {
+    margin-left: 8.33%;
+  }
+  .offset-2 {
+    margin-left: 16.66%;
+  }
+  .offset-3 {
+    margin-left: 25%;
+  }
+  .offset-4 {
+    margin-left: 33.33%;
+  }
+  .offset-5 {
+    margin-left: 41.66%;
+  }
+  .offset-6 {
+    margin-left: 50%;
+  }
+  .offset-7 {
+    margin-left: 58.33%;
+  }
+  .offset-8 {
+    margin-left: 66.66%;
+  }
+  .offset-9 {
+    margin-left: 75%;
+  }
+  .offset-10 {
+    margin-left: 83.33%;
+  }
+  .offset-11 {
+    margin-left: 91.66%;
   }
 }
 .background-image {
@@ -369,7 +357,7 @@
   background: rgba(0, 0, 0, 0.5)
 }
 
-.module > header::after {
+.background-image > header::after {
   content: "";
   position: absolute;
   top: 0;
