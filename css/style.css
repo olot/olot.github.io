@@ -1,3 +1,23 @@
+
+/*About page styling*/
+
+.projects {
+    text-align: center;
+}
+
+.proj_desc {
+  text-align: left;
+}
+
+.projects img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Grid system*/
+
 * {
   font-family: 'Lato', sans-serif;
 }
@@ -34,10 +54,12 @@ body  {
   display: inline-block;
 }
 .nav a {
+
 	padding: 3px 12px;
 	text-decoration: none;
 	color: #b8d676;
 	line-height: 100%;
+
 }
 
 .nav a:hover {
@@ -45,6 +67,8 @@ body  {
 }
 
 .nav .current a {
+
+
 	background: #b8d676;
 	color: #fff;
 	border-radius: 5px;
@@ -173,6 +197,7 @@ body  {
 /*set width of entire grid*/
 
 .grid-container {
+
   width: 100%;
   max-width: 100%;
 }
