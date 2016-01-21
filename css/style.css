@@ -3,6 +3,8 @@ body {
   margin-right: 0px;
   }
 
+
+
 /*Homepage*/
 .row#main_img{
   height: 50vh;
@@ -38,6 +40,14 @@ body {
 
 body  {
   background-color: rgba(184, 214, 118, 0.05);
+}
+ul.social {
+  display: inline;
+}
+
+li {
+  display: inline;
+
 }
 
 .profile-img {
