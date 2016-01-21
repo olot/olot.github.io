@@ -20,6 +20,9 @@
 
 * {
   font-family: 'Lato', sans-serif;
+}
+
+body  {
   background-color: #f3f3eb;
 }
 
@@ -58,15 +61,17 @@
 	line-height: 100%;
 
 }
+
 .nav a:hover {
   color: #000;
 }
+
 .nav .current a {
+
 
 	background: #b8d676;
 	color: #fff;
 	border-radius: 5px;
-
 }
 
 /* right nav */
@@ -192,12 +197,9 @@
 /*set width of entire grid*/
 
 .grid-container {
-<<<<<<< HEAD
-    width : 100%;
-=======
+
   width: 100%;
   max-width: 100%;
->>>>>>> master
 }
 
 /*set width and height properties (and min/max properties) to include content, padding and border*/
