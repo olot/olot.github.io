@@ -410,3 +410,6 @@ body  {
   font:16px/26px Georgia, Garamond, Serif;
   overflow:scroll;
 }
+rowform{
+  width: 200px;
+}
