@@ -1,3 +1,15 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+
+/*Homepage*/
+.row#main_img{
+  height: 350px;
+  position: relative;
+  left: -5px;
+}
+
 
 /*About page styling*/
 
