@@ -1,7 +1,24 @@
+/*About page styling*/
+
+.projects {
+    text-align: center;
+}
+
+.proj_desc {
+  text-align: left;
+}
+
+.projects img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Grid system*/
 /*set width of entire grid*/
 .grid-container {
     width : 100%;
-    max-width : 1200px;
 }
 
 /*set width and height properties (and min/max properties) to include content, padding and border*/
