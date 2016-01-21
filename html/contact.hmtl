@@ -24,8 +24,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li class="current"><a href="profile.html">Meet the team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../index.html#meetteam">Meet the team</a></li>
+            <liclass="current"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
   </div>
@@ -33,26 +33,28 @@
 
 
     <!--Testing grid system!-->
-      <div class="grid-container">
-
+<div class="grid-container">
+  <div class="row">
+    <div class="col-10 offset-1">
       <h1>Contact Page</h1>
       <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-    	<div class="row">
+    	     <div class="row">
     		<label for="name">Your name:</label><br />
-    		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-    	</div>
-    	<div class="row">
+    		<input id="name" class="input" name="name" type="text" value="" size="45" /><br />
+    	       </div>
+    	         <div class="row">
     		<label for="email">Your email:</label><br />
-    		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-    	</div>
-    	<div class="row">
+    		<input id="email" class="input" name="email" type="text" value="" size="45" /><br />
+    	         </div>
+    	      <div class="row">
     		<label for="message">Your message:</label><br />
-    		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    	</div>
+    		<textarea id="message" class="input" name="message" rows="11" cols="70"></textarea><br />
+    	     </div>
     	<input id="submit_button" type="submit" value="Send email" />
     </form>
-
   </div>
+ </div>
+</div>
 
 
 
