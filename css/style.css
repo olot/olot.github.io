@@ -16,15 +16,26 @@ body {
 /*About page styling*/
 
 .projects {
-    text-align: center;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e9e9db;
+}
+
+#project-title {
+  text-align: center;
+  padding-top: 10px;
+
 }
 
 .proj_desc {
   text-align: left;
+
 }
 
 .projects img{
-  width: 80%;
+  width: 85%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -99,6 +110,13 @@ li {
 
 .nav.right ul {
   text-align: right;
+}
+
+@media screen and (min-width: 601px) {
+  .mobile-proj-link {
+    display: none;
+  }
+
 }
 @media screen and (max-width: 600px) {
 
@@ -212,6 +230,10 @@ li {
 		left: 50%;
 		margin-left: -90px;
 	}
+
+  .projects img{
+    display: none;
+  }
 
 }
 
