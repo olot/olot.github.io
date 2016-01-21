@@ -32,8 +32,8 @@ body {
 
 * {
   font-family: 'Lato', sans-serif;
-  border: 1px solid red;
   box-sizing: border-box;
+  color: #b8d676;
 }
 
 body  {
