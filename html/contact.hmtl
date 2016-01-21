@@ -3,28 +3,58 @@
 
   <head>
 
-    <title>Olot</title>
-
-
+    <title>Profile</title>
 
     <link rel="stylesheet"
           type="text/css"
-          href="style.css"/>
+          href="../css/style.css"/>
 
-    <a href="about.html">About</a>
-    <a href="blog.html">Blog</a>
-    <a href="profile.html">Profile</a>
-    <a href="contact.html">Contact</a>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
 
   <body>
 
 
-  <h1>Welcome to Olot!</h1>
+    <!-- Start Navigation bar-->
+    <div class= "nav-bar">
+      <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="current"><a href="profile.html">Meet the team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
+    <!-- End of Navigation bar-->
 
-  <p>This is our blog :)</p>
+
+    <!--Testing grid system!-->
+      <div class="grid-container">
+
+      <h1>Contact Page</h1>
+      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    	<div class="row">
+    		<label for="name">Your name:</label><br />
+    		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    	</div>
+    	<div class="row">
+    		<label for="email">Your email:</label><br />
+    		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    	</div>
+    	<div class="row">
+    		<label for="message">Your message:</label><br />
+    		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    	</div>
+    	<input id="submit_button" type="submit" value="Send email" />
+    </form>
+
+  </div>
+
+
 
   </body>
 
