@@ -21,7 +21,6 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #e9e9db;
 }
 
 #project-title {
@@ -53,12 +52,28 @@ body {
 body  {
   background-color: rgba(184, 214, 118, 0.05);
 }
-ul.social {
+
+#social ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#social ul li {
   display: inline;
+  padding-right: 20px;
+}
+
+.social-icon-width img{
+  width:41px;
+}
+
+#codewars img{
+  width: 35px;
+  padding: 0px 0px 5px 5px;
 }
 
 li {
-  display: inline;
   font-size: 2em;
 }
 
