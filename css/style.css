@@ -132,9 +132,18 @@ li {
   .mobile-proj-link {
     display: none;
   }
+  textarea {
+    width: 80vw;
+    height: 30vh;
+  }
 
 }
 @media screen and (max-width: 600px) {
+
+  textarea {
+    width: 90vw;
+    height: 30vh;
+  }
 
   .nav {
     position: relative;
