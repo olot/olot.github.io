@@ -1,61 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
 
-    <title>Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet"
-          type="text/css"
-          href="../css/style.css"/>
+</head>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
 
-  </head>
+  <!--Testing grid system!-->
+  <div class="grid-container">
 
-  <body>
+    <!-- Start Navigation bar-->
+    <div class="nav-bar">
+      <nav class="nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="current"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Navigation bar-->
 
-    <!--Testing grid system!-->
-<div class="grid-container">
-
-  <!-- Start Navigation bar-->
-  <div class= "nav-bar">
-    <nav class="nav">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li class="current"><a href="contact.html">Contact</a></li>
-      </ul>
-  </nav>
-</div>
-  <!-- End of Navigation bar-->
-
-  <div class="row">
-    <div class="col-10 offset-1">
-      <h1>Contact Page</h1>
-      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-    	     <div class="row">
-    		<label for="name">Your name:</label><br />
-    		<input id="name" class="input" name="name" type="text" value="" size="45" /><br />
-    	       </div>
-    	         <div class="row">
-    		<label for="email">Your email:</label><br />
-    		<input id="email" class="input" name="email" type="text" value="" size="45" /><br />
-    	         </div>
-    	      <div class="row">
-    		<label for="message">Your message:</label><br />
-    		<textarea id="message" class="input" name="message" rows="11" cols="70"></textarea><br />
-    	     </div>
-    	<input id="submit_button" type="submit" value="Send email" />
-    </form>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <h1>Contact Page</h1>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label for="name">Name:</label>
+            <div class="labelentry col-12"></div>
+            <br />
+            <input id="name" class="input" name="name" type="text" value="" size="45" />
+            <br />
+            <div class="labelentry col-12"></div>
+          </div>
+          <div class="row">
+            <label for="email">e-Mail:</label>
+            <div class="labelentry col-12"></div>
+            <br />
+            <input id="email" class="input" name="email" type="text" value="" size="45" />
+            <br />
+            <div class="labelentry col-12"></div>
+          </div>
+          <div class="row">
+            <label for="message">Your Message:</label>
+            <div class="labelentry col-12"></div>
+            <br />
+            <textarea id="message" class="input" name="message" rows="11" cols="70"></textarea>
+            <br />
+            <div class="labelentry col-12"></div>
+          </div>
+          <input id="submit_button" type="submit" value="Send email" />
+        </form>
+      </div>
+    </div>
   </div>
- </div>
-</div>
 
 
 
-  </body>
+</body>
 
 </html>

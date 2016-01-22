@@ -10,6 +10,7 @@ body {
   height: 50vh;
   position: relative;
   left: -5px;
+  margin-bottom: 3vh;
 }
 
 
@@ -46,7 +47,7 @@ body {
 * {
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
-  color: #b8d676;
+  color: #a19c86;
 }
 
 body  {
@@ -58,7 +59,7 @@ ul.social {
 
 li {
   display: inline;
-
+  font-size: 2em;
 }
 
 .profile-img {
@@ -92,7 +93,7 @@ li {
 .nav a {
 	padding: 3px 12px;
 	text-decoration: none;
-	color: #b8d676;
+	color: #a19c86;
 	line-height: 100%;
 }
 
@@ -101,7 +102,7 @@ li {
 }
 
 .nav .current a {
-	background: #b8d676;
+	background: #a19c86;
 	color: #fff;
 	border-radius: 5px;
 }
@@ -185,7 +186,7 @@ li {
 		position: absolute;
 		top: 0;
 		left: 0;
-		border: solid 1px #b8d676;
+		border: solid 1px #a19c86;
 		background: #fff url('../images/icon-menu.png') no-repeat 10px 11px;
 		border-radius: 5px;
 		box-shadow: 0 1px 2px rgba(0,0,0,.3);
@@ -309,7 +310,7 @@ li {
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
   /* For desktop: */
   .row {
     margin: auto;
@@ -406,7 +407,6 @@ li {
   overflow: hidden;
   background-position: 0 50vh;
   text-align: center;
-  text-shadow: 2px 2px black;
 }
 .background-image > header::before {
   content: "";
@@ -439,13 +439,40 @@ li {
 
 .dropdown {
   position: relative;
-  top: 50px;
+  top: 2vh;
+  margin-bottom: 10vh;
 }
 
 .overscroll{
-  height:120px;
+  height:200px;
   width:100%;
   border:0px solid #ccc;
   font:16px/26px Georgia, Garamond, Serif;
   overflow:scroll;
+}
+
+.teamtitle {
+  font-size: 2.5em;
+}
+
+.dropdownblog {
+  position: relative;
+  top: 2vh;
+  margin-bottom: 10vh;
+}
+
+.overscrollblog {
+  height:75vh;
+  width:100%;
+  border:0px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:scroll;
+}
+
+.labelentry {
+  height: 10px;
+}
+
+label {
+  font-size: 1.5em;
 }
