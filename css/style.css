@@ -82,6 +82,8 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width:170px;
+    height:160px
 }
 
 .content {
@@ -132,9 +134,18 @@ li {
   .mobile-proj-link {
     display: none;
   }
+  textarea {
+    width: 80vw;
+    height: 30vh;
+  }
 
 }
 @media screen and (max-width: 600px) {
+
+  textarea {
+    width: 90vw;
+    height: 30vh;
+  }
 
   .nav {
     position: relative;
